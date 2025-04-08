@@ -1,0 +1,94 @@
+body {
+  background-color: #d3d3d3; /* Light gray background */
+  color: #000000; /* Black text */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px; /* Adjusted size for logo */
+  pointer-events: none;
+  margin-right: 10px; /* Spacing from text */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4682b4; /* Steelblue background for header */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; /* White text */
+}
+
+.App-link {
+  color: #a9a9a9; /* Dark gray links */
+  text-decoration: none;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #4682b4; /* Steelblue navigation menu */
+}
+
+.navbar-brand, .nav-link {
+  color: white !important; /* White text for navigation */
+}
+
+.nav-link:hover {
+  color: #d3d3d3 !important; /* Light gray on hover */
+}
+
+.table {
+  background-color: #ffffff; /* White table background */
+  color: #000000; /* Black text */
+  border: 1px solid #ddd; /* Light border */
+}
+
+.table th {
+  background-color: #4682b4; /* Steelblue table header */
+  color: white; /* White text */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9; /* Light gray for striped rows */
+}
+
+.btn {
+  background-color: #add8e6; /* Light blue buttons */
+  color: black; /* Black text */
+}
+
+.btn:hover {
+  background-color: #87ceeb; /* Slightly darker blue on hover */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #a9a9a9; /* Dark gray headings */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.favicon {
+  width: 32px;
+  height: 32px;
+}
